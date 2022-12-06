@@ -3,4 +3,4 @@
 *.[ao]
 logs/*.txt
 build
-
+.DS_Store

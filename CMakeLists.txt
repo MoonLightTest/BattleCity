@@ -3,7 +3,10 @@ cmake_minimum_required(VERSION 3.24.3 FATAL_ERROR)
 set(PROJECT_NAME "BattleCity")
 project(${PROJECT_NAME})
 
-add_executable(${PROJECT_NAME} /Users/moonlight/Documents/GitMyVersion/battle-city/BattleCity/src/main.cpp)
+add_executable(${PROJECT_NAME}
+ /Users/moonlight/Documents/GitMyVersion/battle-city/BattleCity/src/main.cpp
+ /Users/moonlight/Documents/GitMyVersion/battle-city/BattleCity/src/Renderer/ShaderProgram.cpp
+ /Users/moonlight/Documents/GitMyVersion/battle-city/BattleCity/src/Renderer/ShaderProgram.h)
 
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
